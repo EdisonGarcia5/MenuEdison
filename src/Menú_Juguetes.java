@@ -30,7 +30,7 @@ public class Menú_Juguetes {
              System.out.println("-----------------------------------------------");
              System.out.println("compra completa");
              System.out.println("-----------------------------------------------");
-             total += 459.99;//sumará la cantidad con otra opción que el usuario seleccione.
+             total += 459.99;//sirve para sumarle una cantidad al valor de una variable.
              break;
             
              case 2:
