@@ -10,8 +10,8 @@ public class Menú_Juguetes {
         boolean salir; // Un valor booleano es aquel que solo admite true (verdadero) o false (falso).
         double total = 0;
                 
-        do {//Do while (1) nos permiten ejecutar una o varias líneas de código de forma repetitiva sin necesidad de tener un valor inicial.
-    
+        do {//Do while, nos permiten ejecutar una o varias líneas de código de forma repetitiva sin necesidad de tener un valor inicial.
+
           System.out.println("Selecciona el numero del producto a comprar... \n");
           System.out.println("1) Juguete de accion halo $ 459.99 MXN");
           System.out.println("2) Carro de control remoto ferrari $ 1,199.99 MXN");
@@ -27,37 +27,44 @@ public class Menú_Juguetes {
                 
             switch(op1){ //opciones de confirmacion de la compra del producto y sumar los precios cuando seleccione 2 o mas productos.
              case 1:
+             System.out.println("-----------------------------------------------");
              System.out.println("compra completa");
              System.out.println("-----------------------------------------------");
              total += 459.99;//sumará la cantidad con otra opción que el usuario seleccione.
              break;
             
              case 2:
+             System.out.println("-----------------------------------------------");
              System.out.println("compra completa");
              System.out.println("-----------------------------------------------");
              total += 1199.99;
              break;
             
              case 3:
+             System.out.println("-----------------------------------------------");
              System.out.println("compra completa");
              System.out.println("-----------------------------------------------");
              total += 229.99;
              break;
             
              case 4:
+             System.out.println("-----------------------------------------------");
              System.out.println("compra completa");
              System.out.println("-----------------------------------------------");
              total += 159.99;
              break;
                                 
              case 5:
+             System.out.println("-----------------------------------------------");
              System.out.println("compra completa");
              System.out.println("-----------------------------------------------");
              total += 499.99;
              break;
     
-             case 6: //
+             case 6: 
+             System.out.println("-----------------------------------------------");
              System.out.println("El total a pagar es: " + total);//mostrara el total a apagar del usuario (el calculo se realiza automaticamente).
+             System.out.println("-----------------------------------------------");
              break;
         
              case 7:
