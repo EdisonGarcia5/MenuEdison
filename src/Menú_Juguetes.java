@@ -7,7 +7,7 @@ public class Menú_Juguetes {
         System.out.println("\nbienvenido a la tienda de juguetes.");
         System.out.println("-----------------------------------------------");
         int op1;
-        boolean salir; // Un valor booleano es aquel que solo admite true (verdadero) o false (falso).
+        boolean salir; // Un valor booleano es aquel que solo admite true (verdadero) o false (falso)
         double total = 0;
                 
         do {//Do while, nos permiten ejecutar una o varias líneas de código de forma repetitiva sin necesidad de tener un valor inicial.
