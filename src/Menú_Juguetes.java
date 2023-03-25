@@ -76,6 +76,7 @@ public class Menú_Juguetes {
              default:// si no se selecciona ninguna opcion anterior o una incorrecta mandara un mensaje.
              System.out.println("-----------------------------------------------");
              System.out.println("Esta opcion no esta disponibles escoge 1 de la lista");
+             System.out.println("-----------------------------------------------");
              break; 
             }
         } while (op1 !=7);/* finaliza cuando el usuario escoja la opcion 7, si no lo hace el programa continuara con su funcion.*/              
