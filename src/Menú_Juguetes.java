@@ -20,7 +20,7 @@ public class Menú_Juguetes {
           System.out.println("5) Caja de carritos hot wheels $499.99 MXN");
           System.out.println("-----------------------------------------------");
           System.out.println("6) ver el costo total");
-          System.out.println("7) finalizar compra\n");
+          System.out.println("7) Finalizar programa\n");
           System.out.println("selecciona el numero del producto a comprar o finalizar compra:");
             
           op1 = leer.nextInt();
@@ -70,10 +70,11 @@ public class Menú_Juguetes {
              case 7:
              salir = true;// Es true (verdadero) porque si seleccionas la opcion 7 el programa lee que si es valida la intruccion de boolean. 
              System.out.println("-----------------------------------------------");
-             System.out.println("Compra finalizada.");//mensaje que comprueba que se termina el programa.
+             System.out.println("Programa finalizada.");//mensaje que comprueba que se termina el programa.
              break;
 
              default:// si no se selecciona ninguna opcion anterior o una incorrecta mandara un mensaje.
+             System.out.println("-----------------------------------------------");
              System.out.println("Esta opcion no esta disponibles escoge 1 de la lista");
              break; 
             }
